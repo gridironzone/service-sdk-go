@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // Factory defines a client transaction factory that facilitates generating and

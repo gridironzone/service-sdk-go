@@ -7,9 +7,9 @@ import (
 	"github.com/cosmos/go-bip39"
 	"github.com/pkg/errors"
 
-	cryptoAmino "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/crypto/hd"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	cryptoAmino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/crypto/hd"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 const (

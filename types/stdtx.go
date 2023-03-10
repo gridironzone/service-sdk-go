@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec"
 )
 
 const (
@@ -129,7 +129,7 @@ func NewStdTx(msgs []Msg, fee StdFee, sigs []StdSignature, memo string) StdTx {
 	}
 }
 
-//nolint
+// nolint
 // GetMsgs returns the all the transaction's messages.
 func (tx StdTx) GetMsgs() []Msg { return tx.Msgs }
 func (tx StdTx) GetSignBytes() []string {
@@ -186,7 +186,7 @@ func (tx StdTx) GetSigners() []AccAddress {
 	return signers
 }
 
-//nolint
+// nolint
 func (tx StdTx) GetMemo() string { return tx.Memo }
 
 // GetSignatures returns the signature of signers who signed the Msg.

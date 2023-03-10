@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/irisnet/service-sdk-go"
-	"github.com/irisnet/service-sdk-go/service"
-	"github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/types/store"
+	sdk "github.com/gridironzone/service-sdk-go"
+	"github.com/gridironzone/service-sdk-go/service"
+	"github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/types/store"
 )
 
 const (

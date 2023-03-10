@@ -3,7 +3,7 @@ package codec
 import (
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/irisnet/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/codec/types"
 )
 
 type (

@@ -3,7 +3,7 @@ package signing
 import (
 	"fmt"
 
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 // SignatureV2 is a convenience type that is easier to use in application logic

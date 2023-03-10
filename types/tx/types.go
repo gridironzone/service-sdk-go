@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // MaxGasWanted defines the max gas allowed.

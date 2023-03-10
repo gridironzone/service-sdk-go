@@ -17,7 +17,7 @@ func NewUnit(denom string, scale uint8) Unit {
 	}
 }
 
-//GetScaleFactor return 1 * 10^scale
+// GetScaleFactor return 1 * 10^scale
 func (u Unit) GetScaleFactor() Int {
 	return NewIntWithDecimal(1, int(u.Scale))
 }
@@ -29,7 +29,7 @@ type CoinType struct {
 	Desc     string `json:"desc"`      //the description of CoinType
 }
 
-//ToMainCoin return the main denom coin from args
+// ToMainCoin return the main denom coin from args
 func (ct CoinType) ConvertToMainCoin(coin Coin) (DecCoin, error) {
 	if !ct.hasUnit(coin.Denom) {
 		return DecCoin{}, errors.New("coinType unit (%s) not defined" + coin.Denom)
@@ -48,7 +48,7 @@ func (ct CoinType) ConvertToMainCoin(coin Coin) (DecCoin, error) {
 	return NewDecCoinFromDec(ct.MainUnit.Denom, amt), nil
 }
 
-//ToMinCoin return the min denom coin from args
+// ToMinCoin return the min denom coin from args
 func (ct CoinType) ConvertToMinCoin(coin DecCoin) (newCoin Coin, err error) {
 	if !ct.hasUnit(coin.Denom) {
 		return newCoin, errors.New("coinType unit (%s) not defined" + coin.Denom)

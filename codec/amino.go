@@ -10,7 +10,7 @@ import (
 	amino "github.com/tendermint/go-amino"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/irisnet/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/codec/types"
 )
 
 // deprecated: LegacyAmino defines a wrapper for an Amino codec that properly handles protobuf

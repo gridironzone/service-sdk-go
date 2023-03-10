@@ -15,8 +15,8 @@ import (
 	"github.com/mtibben/percent"
 	"github.com/pkg/errors"
 
-	cryptoamino "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/crypto/hd"
+	cryptoamino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/crypto/hd"
 )
 
 const (
@@ -31,8 +31,8 @@ var (
 	}
 )
 
-//Execute the local file system to realize the persistence of the key data, and the stored data is encrypted using `PBES2`.
-//Can directly read the data of `iritacli` keys (--keyring-backend = file)
+// Execute the local file system to realize the persistence of the key data, and the stored data is encrypted using `PBES2`.
+// Can directly read the data of `iritacli` keys (--keyring-backend = file)
 type FileDAO struct {
 	dir string
 }

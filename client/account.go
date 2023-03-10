@@ -7,11 +7,11 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/irisnet/service-sdk-go/base_modules/auth"
-	"github.com/irisnet/service-sdk-go/base_modules/bank"
-	"github.com/irisnet/service-sdk-go/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/utils/cache"
+	"github.com/gridironzone/service-sdk-go/base_modules/auth"
+	"github.com/gridironzone/service-sdk-go/base_modules/bank"
+	"github.com/gridironzone/service-sdk-go/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/utils/cache"
 )
 
 // Must be used with locker, otherwise there are thread safety issues

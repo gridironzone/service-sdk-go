@@ -12,8 +12,8 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"golang.org/x/crypto/ripemd160" // nolint: staticcheck // necessary for Bitcoin address format
 
-	"github.com/irisnet/service-sdk-go/codec"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 var _ cryptotypes.PrivKey = &PrivKey{}

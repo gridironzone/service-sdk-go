@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	"github.com/irisnet/service-sdk-go/utils/bech32"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/utils/bech32"
 )
 
 const (

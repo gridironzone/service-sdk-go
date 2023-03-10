@@ -11,8 +11,8 @@ import (
 
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	clienttx "github.com/irisnet/service-sdk-go/client/tx"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	clienttx "github.com/gridironzone/service-sdk-go/client/tx"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // QueryTx returns the tx info

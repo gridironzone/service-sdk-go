@@ -1,9 +1,9 @@
 package tx
 
 import (
-	"github.com/irisnet/service-sdk-go/codec"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 type (

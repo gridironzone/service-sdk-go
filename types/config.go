@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/irisnet/service-sdk-go/types/store"
+	"github.com/gridironzone/service-sdk-go/types/store"
 )
 
 const (

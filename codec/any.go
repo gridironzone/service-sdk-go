@@ -5,7 +5,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/irisnet/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/codec/types"
 )
 
 // MarshalAny is a convenience function for packing the provided value in an
@@ -29,8 +29,9 @@ func MarshalAny(m BinaryMarshaler, x interface{}) ([]byte, error) {
 // the provided AnyUnpacker or returning an error
 //
 // Ex:
-//		var x MyInterface
-//		err := UnmarshalAny(unpacker, &x, bz)
+//
+//	var x MyInterface
+//	err := UnmarshalAny(unpacker, &x, bz)
 func UnmarshalAny(m BinaryMarshaler, iface interface{}, bz []byte) error {
 	any := &types.Any{}
 

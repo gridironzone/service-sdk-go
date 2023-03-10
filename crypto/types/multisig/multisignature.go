@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/irisnet/service-sdk-go/crypto/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	"github.com/gridironzone/service-sdk-go/crypto/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // AminoMultisignature is used to represent amino multi-signatures for StdTx's.

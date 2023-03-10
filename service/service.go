@@ -8,9 +8,9 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	"github.com/irisnet/service-sdk-go/codec/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 type ServiceClient struct {
@@ -33,7 +33,7 @@ func (s ServiceClient) RegisterInterfaceTypes(registry types.InterfaceRegistry) 
 	RegisterInterfaces(registry)
 }
 
-//DefineService is responsible for creating a new service definition
+// DefineService is responsible for creating a new service definition
 func (s ServiceClient) DefineService(request DefineServiceRequest, baseTx sdk.BaseTx) (sdk.ResultTx, sdk.Error) {
 	author, err := s.QueryAddress(baseTx.From, baseTx.Password)
 	if err != nil {
@@ -50,7 +50,7 @@ func (s ServiceClient) DefineService(request DefineServiceRequest, baseTx sdk.Ba
 	return s.BuildAndSend([]sdk.Msg{msg}, baseTx)
 }
 
-//BindService is responsible for binding a new service definition
+// BindService is responsible for binding a new service definition
 func (s ServiceClient) BindService(request BindServiceRequest, baseTx sdk.BaseTx) (sdk.ResultTx, sdk.Error) {
 	owner, err := s.QueryAddress(baseTx.From, baseTx.Password)
 	if err != nil {
@@ -82,7 +82,7 @@ func (s ServiceClient) BindService(request BindServiceRequest, baseTx sdk.BaseTx
 	return s.BuildAndSend([]sdk.Msg{msg}, baseTx)
 }
 
-//UpdateServiceBinding updates the specified service binding
+// UpdateServiceBinding updates the specified service binding
 func (s ServiceClient) UpdateServiceBinding(request UpdateServiceBindingRequest, baseTx sdk.BaseTx) (sdk.ResultTx, sdk.Error) {
 	owner, err := s.QueryAddress(baseTx.From, baseTx.Password)
 	if err != nil {
@@ -165,7 +165,7 @@ func (s ServiceClient) EnableServiceBinding(serviceName, provider string, deposi
 	return s.BuildAndSend([]sdk.Msg{msg}, baseTx)
 }
 
-//InvokeService is responsible for invoke a new service and callback `handler`
+// InvokeService is responsible for invoke a new service and callback `handler`
 func (s ServiceClient) InvokeService(request InvokeServiceRequest, baseTx sdk.BaseTx) (string, sdk.ResultTx, sdk.Error) {
 	consumer, err := s.QueryAddress(baseTx.From, baseTx.Password)
 	if err != nil {
@@ -426,7 +426,7 @@ func (s ServiceClient) WithdrawEarnedFees(provider string, baseTx sdk.BaseTx) (s
 	return s.BuildAndSend([]sdk.Msg{msg}, baseTx)
 }
 
-//SubscribeSingleServiceRequest is responsible for registering a single service handler
+// SubscribeSingleServiceRequest is responsible for registering a single service handler
 func (s ServiceClient) SubscribeServiceRequest(serviceName string,
 	callback RespondCallback,
 	baseTx sdk.BaseTx) (subscription sdk.Subscription, err sdk.Error) {
@@ -643,7 +643,7 @@ func (s ServiceClient) QueryRequestContext(reqCtxID string) (QueryRequestContext
 	return resp.RequestContext.Convert().(QueryRequestContextResp), nil
 }
 
-//QueryFees return the earned fees for a provider
+// QueryFees return the earned fees for a provider
 func (s ServiceClient) QueryFees(provider string) (sdk.Coins, sdk.Error) {
 	if err := sdk.ValidateAccAddress(provider); err != nil {
 		return nil, sdk.Wrap(err)

@@ -9,7 +9,7 @@ import "google/api/annotations.proto";
 import "google/protobuf/any.proto";
 import "token/token.proto";
 
-option go_package = "github.com/irisnet/service-sdk-go/base_modules/token";
+option go_package = "github.com/gridironzone/service-sdk-go/base_modules/token";
 
 // Query creates service with token as rpc
 service Query {
@@ -72,12 +72,12 @@ message QueryFeesResponse {
     cosmos.base.v1beta1.Coin issue_fee = 2 [
         (gogoproto.nullable) = false,
         (gogoproto.moretags) = "yaml:\"issue_fee\"",
-        (gogoproto.casttype) = "github.com/irisnet/service-sdk-go/types.Coin"
+        (gogoproto.casttype) = "github.com/gridironzone/service-sdk-go/types.Coin"
     ];
     cosmos.base.v1beta1.Coin mint_fee = 3 [
         (gogoproto.nullable) = false,
         (gogoproto.moretags) = "yaml:\"mint_fee\"",
-        (gogoproto.casttype) = "github.com/irisnet/service-sdk-go/types.Coin"
+        (gogoproto.casttype) = "github.com/gridironzone/service-sdk-go/types.Coin"
     ];
 }
 

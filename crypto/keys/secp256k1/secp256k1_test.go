@@ -14,10 +14,10 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	"github.com/irisnet/service-sdk-go/crypto/keys/ed25519"
-	"github.com/irisnet/service-sdk-go/crypto/keys/secp256k1"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/ed25519"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/secp256k1"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 type keyData struct {

@@ -11,8 +11,8 @@ import (
 
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
 )
 
 var cdc = codec.NewLegacyAmino()

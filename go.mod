@@ -1,4 +1,4 @@
-module github.com/irisnet/service-sdk-go
+module github.com/gridironzone/service-sdk-go
 
 go 1.14
 

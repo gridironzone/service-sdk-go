@@ -3,8 +3,8 @@ package store
 import (
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/crypto/hd"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/crypto/hd"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 var (
