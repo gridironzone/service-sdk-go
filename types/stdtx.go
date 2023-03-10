@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec"
 )
 
 const (

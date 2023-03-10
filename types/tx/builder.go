@@ -5,11 +5,11 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	"github.com/irisnet/service-sdk-go/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // wrapper is a wrapper around the tx.Tx proto.Message which retain the raw

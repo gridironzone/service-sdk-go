@@ -3,11 +3,11 @@ package tx
 import (
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
-	"github.com/irisnet/service-sdk-go/crypto/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	"github.com/gridironzone/service-sdk-go/codec"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/crypto/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // SignatureDataToModeInfoAndSig converts a SignatureData to a ModeInfo and raw bytes signature

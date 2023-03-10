@@ -7,9 +7,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	"github.com/irisnet/service-sdk-go/codec/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 type tokenClient struct {

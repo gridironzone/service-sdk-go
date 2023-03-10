@@ -7,10 +7,10 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // Account is an interface used to store coins at a given address within state.

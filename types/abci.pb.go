@@ -7,7 +7,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	types "github.com/irisnet/service-sdk-go/codec/types"
+	types "github.com/gridironzone/service-sdk-go/codec/types"
 	types1 "github.com/tendermint/tendermint/abci/types"
 	io "io"
 	math "math"

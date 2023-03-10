@@ -15,8 +15,8 @@ import (
 	"github.com/mtibben/percent"
 	"github.com/pkg/errors"
 
-	cryptoamino "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/crypto/hd"
+	cryptoamino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/crypto/hd"
 )
 
 const (

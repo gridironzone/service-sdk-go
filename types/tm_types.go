@@ -9,8 +9,8 @@ import (
 	tmclient "github.com/tendermint/tendermint/rpc/client"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	cryptoAmino "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/types/kv"
+	cryptoAmino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/types/kv"
 )
 
 type (

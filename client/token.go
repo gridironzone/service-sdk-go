@@ -7,10 +7,10 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/irisnet/service-sdk-go/base_modules/token"
-	"github.com/irisnet/service-sdk-go/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/utils/cache"
+	"github.com/gridironzone/service-sdk-go/base_modules/token"
+	"github.com/gridironzone/service-sdk-go/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/utils/cache"
 )
 
 type tokenQuery struct {

@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 // The code in this file is adapted from agl/ed25519.

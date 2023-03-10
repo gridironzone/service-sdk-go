@@ -5,15 +5,15 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/irisnet/service-sdk-go/base_modules/bank"
-	"github.com/irisnet/service-sdk-go/base_modules/token"
-	baseclient "github.com/irisnet/service-sdk-go/client"
-	"github.com/irisnet/service-sdk-go/codec"
-	cdctypes "github.com/irisnet/service-sdk-go/codec/types"
-	cryptocodec "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/service"
-	"github.com/irisnet/service-sdk-go/types"
-	txtypes "github.com/irisnet/service-sdk-go/types/tx"
+	"github.com/gridironzone/service-sdk-go/base_modules/bank"
+	"github.com/gridironzone/service-sdk-go/base_modules/token"
+	baseclient "github.com/gridironzone/service-sdk-go/client"
+	"github.com/gridironzone/service-sdk-go/codec"
+	cdctypes "github.com/gridironzone/service-sdk-go/codec/types"
+	cryptocodec "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/service"
+	"github.com/gridironzone/service-sdk-go/types"
+	txtypes "github.com/gridironzone/service-sdk-go/types/tx"
 )
 
 // ServiceClient exports service.ServiceClient

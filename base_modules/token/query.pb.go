@@ -9,10 +9,10 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	grpc1 "github.com/gogo/protobuf/grpc"
 	proto "github.com/gogo/protobuf/proto"
-	types "github.com/irisnet/service-sdk-go/codec/types"
-	github_com_irisnet_service_sdk_go_types "github.com/irisnet/service-sdk-go/types"
-	types1 "github.com/irisnet/service-sdk-go/types"
-	query "github.com/irisnet/service-sdk-go/types/query"
+	types "github.com/gridironzone/service-sdk-go/codec/types"
+	github_com_gridironzone_service_sdk_go_types "github.com/gridironzone/service-sdk-go/types"
+	types1 "github.com/gridironzone/service-sdk-go/types"
+	query "github.com/gridironzone/service-sdk-go/types/query"
 	_ "github.com/regen-network/cosmos-proto"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
@@ -279,8 +279,8 @@ func (m *QueryFeesRequest) GetSymbol() string {
 // QueryFeesResponse is response type for the Query/Fees RPC method
 type QueryFeesResponse struct {
 	Exist    bool                                         `protobuf:"varint,1,opt,name=exist,proto3" json:"exist,omitempty"`
-	IssueFee github_com_irisnet_service_sdk_go_types.Coin `protobuf:"bytes,2,opt,name=issue_fee,json=issueFee,proto3,casttype=github.com/irisnet/service-sdk-go/types.Coin" json:"issue_fee" yaml:"issue_fee"`
-	MintFee  github_com_irisnet_service_sdk_go_types.Coin `protobuf:"bytes,3,opt,name=mint_fee,json=mintFee,proto3,casttype=github.com/irisnet/service-sdk-go/types.Coin" json:"mint_fee" yaml:"mint_fee"`
+	IssueFee github_com_gridironzone_service_sdk_go_types.Coin `protobuf:"bytes,2,opt,name=issue_fee,json=issueFee,proto3,casttype=github.com/gridironzone/service-sdk-go/types.Coin" json:"issue_fee" yaml:"issue_fee"`
+	MintFee  github_com_gridironzone_service_sdk_go_types.Coin `protobuf:"bytes,3,opt,name=mint_fee,json=mintFee,proto3,casttype=github.com/gridironzone/service-sdk-go/types.Coin" json:"mint_fee" yaml:"mint_fee"`
 }
 
 func (m *QueryFeesResponse) Reset()         { *m = QueryFeesResponse{} }
@@ -323,18 +323,18 @@ func (m *QueryFeesResponse) GetExist() bool {
 	return false
 }
 
-func (m *QueryFeesResponse) GetIssueFee() github_com_irisnet_service_sdk_go_types.Coin {
+func (m *QueryFeesResponse) GetIssueFee() github_com_gridironzone_service_sdk_go_types.Coin {
 	if m != nil {
 		return m.IssueFee
 	}
-	return github_com_irisnet_service_sdk_go_types.Coin{}
+	return github_com_gridironzone_service_sdk_go_types.Coin{}
 }
 
-func (m *QueryFeesResponse) GetMintFee() github_com_irisnet_service_sdk_go_types.Coin {
+func (m *QueryFeesResponse) GetMintFee() github_com_gridironzone_service_sdk_go_types.Coin {
 	if m != nil {
 		return m.MintFee
 	}
-	return github_com_irisnet_service_sdk_go_types.Coin{}
+	return github_com_gridironzone_service_sdk_go_types.Coin{}
 }
 
 // QueryParametersRequest is request type for the Query/Parameters RPC method

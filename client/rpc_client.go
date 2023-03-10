@@ -10,9 +10,9 @@ import (
 	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/utils/uuid"
+	"github.com/gridironzone/service-sdk-go/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/utils/uuid"
 )
 
 type rpcClient struct {

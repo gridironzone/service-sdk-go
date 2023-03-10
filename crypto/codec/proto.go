@@ -1,12 +1,12 @@
 package codec
 
 import (
-	codectypes "github.com/irisnet/service-sdk-go/codec/types"
-	"github.com/irisnet/service-sdk-go/crypto/keys/ed25519"
-	"github.com/irisnet/service-sdk-go/crypto/keys/multisig"
-	"github.com/irisnet/service-sdk-go/crypto/keys/secp256k1"
-	"github.com/irisnet/service-sdk-go/crypto/keys/sm2"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	codectypes "github.com/gridironzone/service-sdk-go/codec/types"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/ed25519"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/multisig"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/secp256k1"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/sm2"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 // RegisterInterfaces registers the sdk.Tx interface.

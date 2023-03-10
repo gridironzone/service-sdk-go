@@ -1,10 +1,10 @@
 package store
 
 import (
-	"github.com/irisnet/service-sdk-go/codec"
-	cryptoAmino "github.com/irisnet/service-sdk-go/crypto/codec"
-	"github.com/irisnet/service-sdk-go/crypto/hd"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	cryptoAmino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	"github.com/gridironzone/service-sdk-go/crypto/hd"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 var cdc *codec.LegacyAmino

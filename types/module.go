@@ -1,8 +1,8 @@
 package types
 
 import (
-	cdctypes "github.com/irisnet/service-sdk-go/codec/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	cdctypes "github.com/gridironzone/service-sdk-go/codec/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 type Response interface {

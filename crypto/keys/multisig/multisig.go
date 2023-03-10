@@ -7,10 +7,10 @@ import (
 
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/irisnet/service-sdk-go/codec/types"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	multisigtypes "github.com/irisnet/service-sdk-go/crypto/types/multisig"
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	"github.com/gridironzone/service-sdk-go/codec/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	multisigtypes "github.com/gridironzone/service-sdk-go/crypto/types/multisig"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 var _ multisigtypes.PubKey = &LegacyAminoPubKey{}

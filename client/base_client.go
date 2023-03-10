@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	clienttx "github.com/irisnet/service-sdk-go/client/tx"
+	clienttx "github.com/gridironzone/service-sdk-go/client/tx"
 
 	"github.com/gogo/protobuf/proto"
 
@@ -17,12 +17,12 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	rpcclient "github.com/tendermint/tendermint/rpc/client"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/types/tx"
-	"github.com/irisnet/service-sdk-go/utils"
-	"github.com/irisnet/service-sdk-go/utils/cache"
-	sdklog "github.com/irisnet/service-sdk-go/utils/log"
+	"github.com/gridironzone/service-sdk-go/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/types/tx"
+	"github.com/gridironzone/service-sdk-go/utils"
+	"github.com/gridironzone/service-sdk-go/utils/cache"
+	sdklog "github.com/gridironzone/service-sdk-go/utils/log"
 )
 
 const (

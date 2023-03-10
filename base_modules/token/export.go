@@ -1,7 +1,7 @@
 package token
 
 import (
-	sdk "github.com/irisnet/service-sdk-go/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 type Client interface {

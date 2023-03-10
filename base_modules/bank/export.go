@@ -1,7 +1,7 @@
 package bank
 
 import (
-	sdk "github.com/irisnet/service-sdk-go/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // expose bank module api for user

@@ -1,10 +1,10 @@
 package service
 
 import (
-	"github.com/irisnet/service-sdk-go/codec"
-	"github.com/irisnet/service-sdk-go/codec/types"
-	cryptocodec "github.com/irisnet/service-sdk-go/crypto/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec/types"
+	cryptocodec "github.com/gridironzone/service-sdk-go/crypto/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 var (

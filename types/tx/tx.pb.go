@@ -7,11 +7,11 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	types "github.com/irisnet/service-sdk-go/codec/types"
-	types1 "github.com/irisnet/service-sdk-go/crypto/types"
-	github_com_irisnet_service_sdk_go_types "github.com/irisnet/service-sdk-go/types"
-	types2 "github.com/irisnet/service-sdk-go/types"
-	signing "github.com/irisnet/service-sdk-go/types/tx/signing"
+	types "github.com/gridironzone/service-sdk-go/codec/types"
+	types1 "github.com/gridironzone/service-sdk-go/crypto/types"
+	github_com_gridironzone_service_sdk_go_types "github.com/gridironzone/service-sdk-go/types"
+	types2 "github.com/gridironzone/service-sdk-go/types"
+	signing "github.com/gridironzone/service-sdk-go/types/tx/signing"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -668,7 +668,7 @@ func (m *ModeInfo_Multi) GetModeInfos() []*ModeInfo {
 // which must be above some miminum to be accepted into the mempool.
 type Fee struct {
 	// amount is the amount of coins to be paid as a fee
-	Amount github_com_irisnet_service_sdk_go_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/irisnet/service-sdk-go/types.Coins" json:"amount"`
+	Amount github_com_gridironzone_service_sdk_go_types.Coins `protobuf:"bytes,1,rep,name=amount,proto3,castrepeated=github.com/gridironzone/service-sdk-go/types.Coins" json:"amount"`
 	// gas_limit is the maximum gas that can be used in transaction processing
 	// before an out of gas error occurs
 	GasLimit uint64 `protobuf:"varint,2,opt,name=gas_limit,json=gasLimit,proto3" json:"gas_limit,omitempty"`
@@ -715,7 +715,7 @@ func (m *Fee) XXX_DiscardUnknown() {
 
 var xxx_messageInfo_Fee proto.InternalMessageInfo
 
-func (m *Fee) GetAmount() github_com_irisnet_service_sdk_go_types.Coins {
+func (m *Fee) GetAmount() github_com_gridironzone_service_sdk_go_types.Coins {
 	if m != nil {
 		return m.Amount
 	}

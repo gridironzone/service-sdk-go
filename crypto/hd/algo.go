@@ -5,9 +5,9 @@ import (
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	"github.com/irisnet/service-sdk-go/crypto/keys/secp256k1"
-	"github.com/irisnet/service-sdk-go/crypto/keys/sm2"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/secp256k1"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/sm2"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 type SignatureAlgo interface {

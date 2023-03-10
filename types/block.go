@@ -8,7 +8,7 @@ import (
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/irisnet/service-sdk-go/codec"
+	"github.com/gridironzone/service-sdk-go/codec"
 )
 
 type Block struct {

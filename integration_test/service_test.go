@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/irisnet/service-sdk-go/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 
-	"github.com/irisnet/service-sdk-go/service"
+	"github.com/gridironzone/service-sdk-go/service"
 )
 
 func (s IntegrationTestSuite) TestService() {

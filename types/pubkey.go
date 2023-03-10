@@ -8,9 +8,9 @@ package types
 // 	"github.com/tendermint/tendermint/crypto/sm2"
 // 	"github.com/tendermint/tendermint/crypto/sr25519"
 
-// 	"github.com/irisnet/service-sdk-go/crypto/keys/secp256k1"
-// 	"github.com/irisnet/service-sdk-go/crypto/types"
-// 	"github.com/irisnet/service-sdk-go/crypto/types/multisig"
+// 	"github.com/gridironzone/service-sdk-go/crypto/keys/secp256k1"
+// 	"github.com/gridironzone/service-sdk-go/crypto/types"
+// 	"github.com/gridironzone/service-sdk-go/crypto/types/multisig"
 // )
 
 // // DefaultPublicKeyCodec implements the standard PublicKeyCodec for the SDK which

@@ -4,8 +4,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/irisnet/service-sdk-go/crypto/keys/internal/benchmarking"
-	"github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/crypto/keys/internal/benchmarking"
+	"github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 func BenchmarkKeyGeneration(b *testing.B) {

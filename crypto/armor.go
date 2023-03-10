@@ -11,9 +11,9 @@ import (
 	"github.com/tendermint/tendermint/crypto/armor"
 	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
 
-	"github.com/irisnet/service-sdk-go/codec/legacy"
-	cryptoAmino "github.com/irisnet/service-sdk-go/crypto/codec"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/codec/legacy"
+	cryptoAmino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 const (

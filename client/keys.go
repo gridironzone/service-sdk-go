@@ -3,11 +3,11 @@ package client
 import (
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/crypto"
-	cryptoamino "github.com/irisnet/service-sdk-go/crypto/codec"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
-	"github.com/irisnet/service-sdk-go/types"
-	"github.com/irisnet/service-sdk-go/types/store"
+	"github.com/gridironzone/service-sdk-go/crypto"
+	cryptoamino "github.com/gridironzone/service-sdk-go/crypto/codec"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/types/store"
 )
 
 type keyManager struct {

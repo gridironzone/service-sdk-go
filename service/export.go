@@ -3,7 +3,7 @@ package service
 import (
 	"time"
 
-	sdk "github.com/irisnet/service-sdk-go/types"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // Tx defines a set of transaction interfaces in the service module

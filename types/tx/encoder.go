@@ -5,8 +5,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	sdk "github.com/irisnet/service-sdk-go/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	sdk "github.com/gridironzone/service-sdk-go/types"
 )
 
 // DefaultTxEncoder returns a default protobuf TxEncoder using the provided Marshaler

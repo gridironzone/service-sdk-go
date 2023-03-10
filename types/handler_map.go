@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // SignModeHandlerMap is SignModeHandler that aggregates multiple SignModeHandler's into

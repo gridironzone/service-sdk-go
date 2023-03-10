@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/irisnet/service-sdk-go/types/tx/signing"
+	"github.com/gridironzone/service-sdk-go/types/tx/signing"
 )
 
 // SignModeHandler defines a interface to be implemented by types which will handle

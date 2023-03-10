@@ -3,7 +3,7 @@ package types
 import (
 	"github.com/gogo/protobuf/proto"
 
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 type (

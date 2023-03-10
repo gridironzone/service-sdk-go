@@ -9,8 +9,8 @@ import (
 	"github.com/tendermint/tendermint/crypto"
 	"github.com/tendermint/tendermint/crypto/tmhash"
 
-	"github.com/irisnet/service-sdk-go/codec"
-	cryptotypes "github.com/irisnet/service-sdk-go/crypto/types"
+	"github.com/gridironzone/service-sdk-go/codec"
+	cryptotypes "github.com/gridironzone/service-sdk-go/crypto/types"
 )
 
 //-------------------------------------
